@@ -15,6 +15,10 @@ The repository is organized into a series of directories, each representing a da
 
 Feel free to navigate the directories to explore the progression of concepts and implementations as the challenge advances.
 
+**What will be the structure of the daily code document?**
+It is going to contain the question and its link in the form of comments and the code will be represented simply.
+
+
 ## How to Use This Repository
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
