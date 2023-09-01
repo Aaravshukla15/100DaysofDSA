@@ -1,5 +1,6 @@
-#Recursion Basics 
-Doing it for making programming more easier and applying easy concepts of Recusion while coding.
+##Recursion Basics 
+
+#Doing it for making programming more easier and applying easy concepts of Recusion while coding.
 
 #What is Recursion ?
 Recursion is a programming concept and technique where a function calls itself to solve a problem. 
