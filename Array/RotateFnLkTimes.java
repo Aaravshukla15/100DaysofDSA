@@ -20,14 +20,17 @@ public class RotateFnLkTimes {
         int n = arr.length;
         k = k % n; // To handle cases where k is greater than array length
 
+         d = d % n;
+        
+        // Reverse the first d elements (if d > 0)
+       reverse(arr, 0, d - 1);
+        
+        
+        // Reverse the remaining elements
+        reverse(arr, d, n - 1);
+        
         // Reverse the entire array
         reverse(arr, 0, n - 1);
-
-        // Reverse the first k elements
-        reverse(arr, 0, k - 1);
-
-        // Reverse the remaining elements
-        reverse(arr, k, n - 1);
 
     }
 
