@@ -1,5 +1,5 @@
 // Write a programme to perform sum of an Array
-
+// Solution
 import java.util.Scanner;
 
 public class ArraySum {
