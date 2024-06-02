@@ -1,0 +1,19 @@
+// Write a function to determine whether a given set of three side lengths can form a valid triangle. 
+//   A valid triangle is formed if and only if the sum of the lengths of any two sides 
+// is greater than the length of the remaining side. Your function should return 
+//   True if the triangle is valid, and False otherwise.
+
+//   Link:https://practice.geeksforgeeks.org/contest/gfg-weekly-157-rated-contest/problems
+// Solution
+class Solution {
+    public static String isPossible(int a, int b, int c) {
+        // code here
+        String fact = "YES";
+        if(a+b > c && b+c > a && c+a>b){
+            fact = "YES";
+        }else{
+            fact = "NO";
+        }
+        return fact;
+    }
+}
